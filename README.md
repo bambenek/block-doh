@@ -8,7 +8,7 @@ CC-BY license (https://creativecommons.org/licenses/by/4.0/), legal text attache
 
 # Why would I want to block DoH?
 
-DoH provides privacy and the expense of security. The prominent providers do NOT filter malicious websites, domains, and IP addresses. This has the effect of creating a mechanism by which hackers bypass security policy and this has been observed in the wild. Organizations that use DNS to protect their constituents are directly harmed by DoH.
+DoH provides "privacy" at the expense of security. The prominent providers do NOT filter malicious websites, domains, and IP addresses. This has the effect of creating a mechanism by which hackers bypass security policy and this has been observed in the wild. Organizations that use DNS to protect their constituents are directly harmed by DoH.
 
 Also, as a fundamental principle, the Internet was SUPPOSED to be decentralized. As time has gone on, however, the Internet is becoming RADICALLY centralized in the hands of a few companies who control more and more. Large technology companies controlling more and more in the name of "privacy" is the exact kind of problem the Internet was supposed to prevent. And the notion that Google (one of the largest DoH providers) is interested in your DNS privacy flies in the face of their entire business model as a for-profit surveillance agency.
 
@@ -36,10 +36,8 @@ Then don't. I'm publishing this to help put the ball back in users' court. Block
 
 Clone the repo and put something like this into your appropriate named.conf file:
 
-zone "rpz-doh" {
-	type master;
-	file "/some/directory/db.doh";
-#	file "/some/directory/db.doh-redirect";
-};
+zone "rpz-doh" { type master; file "/some/directory/db.doh"; };
 
-Then simply uncomment the version you want and comment the other.
+or
+
+zone "rpz-doh" { type master; file "/some/directory/db.doh-redirect"; };
