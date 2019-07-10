@@ -30,3 +30,4 @@ dns.aaflolo.me  CNAME .
 doh.appliedprivacy.net  CNAME .
 doh.dns.sb/dns-query  CNAME .
 rdns.faelix.net CNAME .
+doh.dns.sb.cdn.cloudflare.net CNAME .
