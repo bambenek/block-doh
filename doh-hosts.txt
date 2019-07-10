@@ -13,3 +13,8 @@ dns.rubyfish.cn
 doh.dnswarden.com
 doh.captnemo.in
 doh.tiar.app
+commons.host
+dns.aaflolo.me
+doh.appliedprivacy.net
+doh.dns.sb/dns-query
+rdns.faelix.net
