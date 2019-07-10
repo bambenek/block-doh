@@ -18,3 +18,4 @@ dns.aaflolo.me
 doh.appliedprivacy.net
 doh.dns.sb/dns-query
 rdns.faelix.net
+doh.dns.sb.cdn.cloudflare.net
