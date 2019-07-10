@@ -3,7 +3,7 @@
 ;
 $TTL    604800
 @       IN      SOA     localhost. root.localhost. (
-                     1562067622         ; Serial
+                     1562067623         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -25,3 +25,8 @@ dns.rubyfish.cn    CNAME   .
 doh.dnswarden.com    CNAME   .
 doh.captnemo.in    CNAME   .
 doh.tiar.app    CNAME   .
+commons.host  CNAME .
+dns.aaflolo.me  CNAME .
+doh.appliedprivacy.net  CNAME .
+doh.dns.sb/dns-query  CNAME .
+rdns.faelix.net CNAME .
