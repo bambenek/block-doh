@@ -28,6 +28,6 @@ doh.tiar.app    CNAME   .
 commons.host  CNAME .
 dns.aaflolo.me  CNAME .
 doh.appliedprivacy.net  CNAME .
-doh.dns.sb/dns-query  CNAME .
+doh.dns.sb  CNAME .
 rdns.faelix.net CNAME .
 doh.dns.sb.cdn.cloudflare.net CNAME .
