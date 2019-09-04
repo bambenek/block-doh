@@ -36,8 +36,10 @@ Then don't. I'm publishing this to help put the ball back in users' court. Block
 
 Clone the repo and put something like this into your appropriate named.conf file:
 
+response-policy { zone "rpz-doh" policy given; } break-dnssec yes;
 zone "rpz-doh" { type master; file "/some/directory/db.doh"; };
 
 or
 
-zone "rpz-doh" { type master; file "/some/directory/db.doh-redirect"; };
+response-policy { zone "rpz-doh" policy cname doh-server.local; } break-dnssec yes;
+zone "rpz-doh" { type master; file "/some/directory/db.doh"; };

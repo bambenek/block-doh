@@ -1,4 +1,5 @@
 dns.google
+dns.google.com
 cloudflare-dns.com
 dns9.quad9.net
 dns10.quad9.net
@@ -13,3 +14,4 @@ dns.rubyfish.cn
 doh.dnswarden.com
 doh.captnemo.in
 doh.tiar.app
+dns.switch.ch

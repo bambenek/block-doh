@@ -3,7 +3,7 @@
 ;
 $TTL    604800
 @       IN      SOA     localhost. root.localhost. (
-                     1562067622         ; Serial
+                     1567599832         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -11,6 +11,7 @@ $TTL    604800
         NS      localhost. 
 ;
 dns.google    CNAME   .
+dns.google.com    CNAME   .
 cloudflare-dns.com    CNAME   .
 dns9.quad9.net    CNAME   .
 dns10.quad9.net    CNAME   .
@@ -25,3 +26,4 @@ dns.rubyfish.cn    CNAME   .
 doh.dnswarden.com    CNAME   .
 doh.captnemo.in    CNAME   .
 doh.tiar.app    CNAME   .
+dns.switch.ch    CNAME   .
