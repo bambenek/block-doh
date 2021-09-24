@@ -18,7 +18,6 @@ doh.cleanbrowsing.org    CNAME   doh-server.local.
 dns.dnsoverhttps.net    CNAME   doh-server.local.
 doh.crypto.sx    CNAME   doh-server.local.
 doh.powerdns.org    CNAME   doh-server.local.
-doh-jp.blahdns.com    CNAME   doh-server.local.
 dns.dns-over-https.com    CNAME   doh-server.local.
 doh.securedns.eu    CNAME   doh-server.local.
 dns.rubyfish.cn    CNAME   doh-server.local.
