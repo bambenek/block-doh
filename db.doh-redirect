@@ -3,7 +3,7 @@
 ;
 $TTL    604800
 @       IN      SOA     localhost. root.localhost. (
-                     1562067622         ; Serial
+                     1562067624         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -18,10 +18,48 @@ doh.cleanbrowsing.org    CNAME   doh-server.local.
 dns.dnsoverhttps.net    CNAME   doh-server.local.
 doh.crypto.sx    CNAME   doh-server.local.
 doh.powerdns.org    CNAME   doh-server.local.
-doh-jp.blahdns.com    CNAME   doh-server.local.
 dns.dns-over-https.com    CNAME   doh-server.local.
 doh.securedns.eu    CNAME   doh-server.local.
 dns.rubyfish.cn    CNAME   doh-server.local.
 doh.dnswarden.com    CNAME   doh-server.local.
 doh.captnemo.in    CNAME   doh-server.local.
 doh.tiar.app    CNAME   doh-server.local.
+commons.host  CNAME doh-server.local.
+dns.aaflolo.me  CNAME doh-server.local.
+doh.appliedprivacy.net  CNAME doh-server.local.
+doh.dns.sb  CNAME doh-server.local.
+rdns.faelix.net CNAME doh-server.local.
+doh.dns.sb.cdn.cloudflare.net CNAME doh-server.local.
+dns.adguard.com CNAME doh-server.local.
+dns-family.adguard.com CNAME doh-server.local.
+doh-ch.blahdns.com CNAME doh-server.local.
+doh-jp.blahdns.com CNAME doh-server.local.
+doh-de.blahdns.com CNAME doh-server.local.
+dns.aaflalo.me CNAME doh-server.local.
+dns-nyc.aaflalo.me CNAME doh-server.local.
+dns-gcp.aaflalo.me CNAME doh-server.local.
+tiar.app CNAME doh-server.local.
+doh.netweaver.uk CNAME doh-server.local.
+doh.armadillodns.net CNAME doh-server.local.
+doh.li CNAME doh-server.local.
+faelix.net CNAME doh-server.local.
+doh.dns.sb CNAME doh-server.local.
+doh.appliedprivacy.net CNAME doh-server.local.
+commons.host CNAME doh-server.local.
+dns.nextdns.io CNAME doh-server.local.
+dns.quad9.net CNAME doh-server.local.
+dns.brahma.world CNAME doh-server.local.
+dnscrypt.nl CNAME doh-server.local.
+dnscrypt.eu CNAME doh-server.local.
+dnscrypt.uk CNAME doh-server.local.
+encrypt.town CNAME doh-server.local.
+233py.com CNAME doh-server.local.
+ad.jp CNAME doh-server.local.
+ipredator.se CNAME doh-server.local.
+oszx.co CNAME doh-server.local.
+seby.io CNAME doh-server.local.
+cruisemaniac.com CNAME doh-server.local.
+qualityology.com CNAME doh-server.local.
+rubyfish.cn CNAME doh-server.local.
+dnscrypt.info CNAME doh-server.local.
+dnsforfamily.com CNAME doh-server.local.
